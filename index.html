@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/js/bootstrap.js" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <p id="extra"></p>
+        <p class="card-title">Generate a</p>
+        <p class="card-title-second">Random Password</p>
+        <hr />
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <div class="inputWrapper">
+          <input readonly placeholder="Password..." />
+          <button id="imgBtn"></button>
+        </div>
+        <button
+          onclick="createPassword()"
+          type="reset"
+          class="btn btn-primary btn-lg"
+        >
+          Generate Password
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
